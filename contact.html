@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="designko.css">
+            <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+        <title>CONTACT</title>
+    </head>
+
+    <body>
+        <video autoplay loop muted playsinline class="background-video" id="background-video">
+            <source src="batman.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        
+        <div class="pages">
+            <h2>Welcome to my Project</h2>
+            <p>
+                <a href="index.html">Home</a>
+                <a href="biography.html">Biography</a>
+                <a href="hobby.html">Hobby</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-container">
+            <h2>FEEDBACK</h2>
+            <p>Please fill out the form below to send a message.</p>
+
+
+                <div class="form-group">
+                    <input type="hidden" name="access_key" value="cb39a7da-fe4f-4ad2-9ac2-c36f1e1ae578">
+                    <label for="name">Name:</label>
+                    <input type="text"  name="name" placeholder="Fullname" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="email123@gmail.com" required>
+                    <label for="message">Message:</label>
+                    <textarea type="text" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </body>
+</html>
