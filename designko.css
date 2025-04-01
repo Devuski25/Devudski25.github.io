@@ -524,9 +524,10 @@ body {
     top: 35%; /* Adjust vertical positioning */
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%; /* Take up more width */
+    width: 85%; /* Take up more width */
     font-size: 24px;
     padding: 15px;
+    font-size: 22px;
     text-align: center; /* Center text on smaller screens */
   }
 
